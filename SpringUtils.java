@@ -23,6 +23,7 @@ public class SpringUtils {
      * @param beanName The bean name or ID attribute to get
      * @param <T> In order to adapt to different types of beans, generics are used as placeholders
      * @return Returned bean (note the returned type)
+     * updated
      */
     @NotNull
     public static <T> T getBean(String beanName) { return (T) context.getBean(beanName); }
